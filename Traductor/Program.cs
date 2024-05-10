@@ -1,7 +1,10 @@
+using Traductor.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<TraductorModel>();
 
 var app = builder.Build();
 

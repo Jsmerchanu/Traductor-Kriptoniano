@@ -1,8 +1,21 @@
-﻿@{
+﻿@model Traductor.Models.TraductorViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    @using (Html.BeginForm("Traducir", "Traductor", FormMethod.Post))
+    {
+        <div class="mb-3">
+            <textarea class="form-control" rows="3" name="texto" id="texto" placeholder="Texto a traducir" required></textarea>
+        </div>
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Traducir" />
+        </div>
+    }
+
 </div>

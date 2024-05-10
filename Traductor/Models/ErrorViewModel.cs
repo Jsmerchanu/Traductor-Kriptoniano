@@ -1,3 +1,4 @@
+
 namespace Traductor.Models
 {
     public class ErrorViewModel
@@ -6,4 +7,5 @@ namespace Traductor.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+    
 }

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="J.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="207.18229"
+     inkscape:cy="147.07821"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient9403"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9401" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#d7d7d7;fill-opacity:1;stroke:#000000;stroke-width:0.367001;stroke-opacity:0"
+       id="path5259"
+       cx="26.753675"
+       cy="26.379526"
+       r="5" />
+    <path
+       id="path2788"
+       style="fill:#d7d7d7;fill-opacity:1;stroke:#000000;stroke-width:0.331827;stroke-opacity:0"
+       d="M 43.778723 7.4718953 A 9.8982277 9.8340864 0 0 0 33.880619 17.30592 A 9.8982277 9.8340864 0 0 0 39.976888 26.379785 A 9.8982277 9.8340864 0 0 0 33.880619 35.453133 A 9.8982277 9.8340864 0 0 0 43.778723 45.287158 A 9.8982277 9.8340864 0 0 0 53.676827 35.453133 A 9.8982277 9.8340864 0 0 0 47.580558 26.379785 A 9.8982277 9.8340864 0 0 0 53.676827 17.30592 A 9.8982277 9.8340864 0 0 0 43.778723 7.4718953 z M 43.778723 9.3058919 A 8 8 0 0 1 51.778752 17.30592 A 8 8 0 0 1 43.778723 25.305949 A 8 8 0 0 1 35.778695 17.30592 A 8 8 0 0 1 43.778723 9.3058919 z M 43.778723 27.453105 A 8 8 0 0 1 51.778752 35.453133 A 8 8 0 0 1 43.778723 43.453162 A 8 8 0 0 1 35.778695 35.453133 A 8 8 0 0 1 43.778723 27.453105 z " />
+  </g>
+</svg>
