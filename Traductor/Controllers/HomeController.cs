@@ -15,8 +15,8 @@ namespace Traductor.Controllers
 
         public IActionResult Index()
         {
-            var traductorViewModel = new TraductorViewModel(); // Creas una instancia del ViewModel
-            return View("index", traductorViewModel); // Pasas el ViewModel a la vista
+            var traductorViewModel = new TraductorViewModel(); // Crear una instancia del ViewModel
+            return View("index", traductorViewModel); // Pasar el ViewModel a la vista
         }
 
         public IActionResult Privacy()

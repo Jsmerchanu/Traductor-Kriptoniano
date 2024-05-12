@@ -6,4 +6,6 @@ document.querySelector('form').addEventListener('submit', function () {
     document.getElementById('kripto').value = textareaValue;
 });
 
+ 
+
 

@@ -1,66 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="A.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="1.5446627"
-     inkscape:cx="235.65015"
-     inkscape:cy="163.7898"
-     inkscape:window-width="1366"
-     inkscape:window-height="715"
-     inkscape:window-x="1358"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       id="rect117"
-       style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0450635"
-       d="m 20.64411,15.837501 v 12.795217 h 3.80412 v 6.409566 h -3.812829 v 12.795217 h 3.812829 0.07762 5.109552 V 15.849512 h -5.100835 v -0.01177 z" />
-    <rect
-       style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0467657"
-       id="rect622"
-       width="8"
-       height="32"
-       x="32.764034"
-       y="15.911629" />
-    <circle
-       style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0870229"
-       id="path676"
-       cx="25.291351"
-       cy="53.345573"
-       r="4" />
-    <circle
-       style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0870229"
-       id="path676-0"
-       cx="36.764061"
-       cy="53.345573"
-       r="4" />
-  </g>
-</svg>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" version="1.1" id="svg5" ns1:version="1.2.2 (732a01da63, 2022-12-09)" ns2:docname="A.svg">
+  <ns0:defs id="defs2" />
+  <ns0:g ns1:label="Capa 1" ns1:groupmode="layer" id="layer1">
+    <ns0:path id="rect117" style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0450635" d="m 20.64411,15.837501 v 12.795217 h 3.80412 v 6.409566 h -3.812829 v 12.795217 h 3.812829 0.07762 5.109552 V 15.849512 h -5.100835 v -0.01177 z" />
+    <ns0:rect style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0467657" id="rect622" width="8" height="32" x="32.764034" y="15.911629" />
+    <ns0:circle style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0870229" id="path676" cx="25.291351" cy="53.345573" r="4" />
+    <ns0:circle style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0870229" id="path676-0" cx="36.764061" cy="53.345573" r="4" />
+  </ns0:g>
+</ns0:svg>

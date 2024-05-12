@@ -5,21 +5,7 @@
 }
 <link rel="stylesheet" href="~/css/custom.css" />
 <div class="text-center">
-    <h1 class="display-4">Welcomer</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-
-    @using (Html.BeginForm("Traducir", "Traductor", FormMethod.Post))
-    {
-        <div class="mb-3">
-            <input class="form-control" type="text" name="kripto" id="kripto" onchange="updateFontStyle(this)" value="@Model.Kripto" style="font-family: 'Kriptoniano';" />
-        </div>
-        <div class="mb-3">
-            <textarea class="form-control" rows="3" name="texto" id="texto" placeholder="Texto a traducir" required></textarea>
-        </div>
-        <div class="mb-3">
-            <input class="btn btn-primary" type="submit" value="Traducir" />
-        </div>
-    }   
+    <h1 class="display-4">Traductor a Kriptoniano</h1>
     @if (Model != null && Model.RutasSvg != null && Model.RutasSvg.Any())
     {
         <div class="row no-gutters justify-content-start bg-dark ">
@@ -28,13 +14,49 @@
                 {
                     <div class="col-auto p-0" style="width: 70px; height: 70px;">
                         <div style="background-image: url('@Model.RutasSvg[i].Item2'); background-size: 180% auto; background-repeat: no-repeat; position:center center; width: 100%; height: 100%;">
-                        
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="row no-gutters justify-content-start bg-dark ">
+            <div class="image-container">
+                @for (int i = 0; i < Model.RutasSvg.Count; i++)
+                {
+                    <div class="col-auto p-0" style="width: 70px; height: 70px;">
+                        <div style="background-image: url('@Model.RutasSvg[i].Item2'); background-size: 180% auto; background-repeat: no-repeat; position:center center; width: 100%; height: 100%;">
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="row no-gutters justify-content-start bg-dark mb-2">
+            <div class="image-container">
+                @for (int i = 0; i < Model.RutasSvg.Count; i++)
+                {
+                    <div class="col-auto p-0" style="width: 70px; height: 70px;">
+                        <div style="background-image: url('@Model.RutasSvg[i].Item2'); background-size: 180% auto; background-repeat: no-repeat; position:center center; width: 100%; height: 100%;">
                         </div>
                     </div>
                 }
             </div>
         </div>
     }
+
+    @using (Html.BeginForm("Traducir", "Traductor", FormMethod.Post))
+    {
+        <div class="mb-3">
+            <input class="form-control" type="text" name="kripto" id="kripto" onchange="updateFontStyle(this)" value="@Model.Kripto" style="font-family: 'Kriptoniano';" />
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" rows="3" name="texto" id="texto" placeholder="Texto a traducir" required maxlength="72"></textarea>
+        </div>
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Traducir" />
+        </div>
+    }
+    
+    
     <script src="~/js/custom.js"></script>
 </div>
 

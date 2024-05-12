@@ -1,68 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="P.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="384"
-     inkscape:cy="118"
-     inkscape:window-width="1366"
-     inkscape:window-height="715"
-     inkscape:window-x="1358"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     showguides="false" />
-  <defs
-     id="defs2">
-    <linearGradient
-       id="linearGradient9403"
-       inkscape:swatch="solid">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop9401" />
-    </linearGradient>
-  </defs>
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       id="rect6136"
-       style="fill:#d7d7d7;fill-opacity:1;stroke:#000000;stroke-width:0.30857;stroke-opacity:0"
-       d="M 44.986373,7.2993217 22.251259,38.773165 44.442793,71.017348 67.177904,39.544021 Z M 44.92475,14.351815 62.099065,39.458716 44.504381,63.965374 27.330064,38.858474 Z" />
-    <path
-       id="path2788-2"
-       style="fill:#d7d7d7;fill-opacity:1;stroke:#000000;stroke-width:0.413464;stroke-opacity:0"
-       d="M 79.414584,26.865065 A 12.293419,12.293346 0 0 1 91.707848,39.158334 12.293419,12.293346 0 0 1 79.414584,51.451602 12.293419,12.293346 0 0 1 67.121311,39.158334 12.293419,12.293346 0 0 1 79.414584,26.865065 Z m 0,2.292632 a 9.935854,10.0006 0 0 0 -9.935892,10.000637 9.935854,10.0006 0 0 0 9.935892,10.000635 9.935854,10.0006 0 0 0 9.935894,-10.000635 9.935854,10.0006 0 0 0 -9.935894,-10.000637 z" />
-    <rect
-       style="fill:#d7d7d7;fill-opacity:1;stroke:#000000;stroke-width:0.328568;stroke-opacity:0"
-       id="rect6810"
-       width="35.042599"
-       height="6.0384326"
-       x="61.89328"
-       y="36.139118" />
-  </g>
-</svg>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" version="1.1" id="svg5" ns1:version="1.2.2 (732a01da63, 2022-12-09)" ns2:docname="P.svg">
+  <ns0:defs id="defs2">
+    <ns0:linearGradient id="linearGradient9403" ns1:swatch="solid">
+      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop9401" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  <ns0:g ns1:label="Capa 1" ns1:groupmode="layer" id="layer1">
+    <ns0:path id="rect6136" style="fill:#d7d7d7;fill-opacity:1;stroke:#000000;stroke-width:0.30857;stroke-opacity:0" d="M 44.986373,7.2993217 22.251259,38.773165 44.442793,71.017348 67.177904,39.544021 Z M 44.92475,14.351815 62.099065,39.458716 44.504381,63.965374 27.330064,38.858474 Z" />
+    <ns0:path id="path2788-2" style="fill:#d7d7d7;fill-opacity:1;stroke:#000000;stroke-width:0.413464;stroke-opacity:0" d="M 79.414584,26.865065 A 12.293419,12.293346 0 0 1 91.707848,39.158334 12.293419,12.293346 0 0 1 79.414584,51.451602 12.293419,12.293346 0 0 1 67.121311,39.158334 12.293419,12.293346 0 0 1 79.414584,26.865065 Z m 0,2.292632 a 9.935854,10.0006 0 0 0 -9.935892,10.000637 9.935854,10.0006 0 0 0 9.935892,10.000635 9.935854,10.0006 0 0 0 9.935894,-10.000635 9.935854,10.0006 0 0 0 -9.935894,-10.000637 z" />
+    <ns0:rect style="fill:#d7d7d7;fill-opacity:1;stroke:#000000;stroke-width:0.328568;stroke-opacity:0" id="rect6810" width="35.042599" height="6.0384326" x="61.89328" y="36.139118" />
+  </ns0:g>
+</ns0:svg>

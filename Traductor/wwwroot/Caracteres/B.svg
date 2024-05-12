@@ -1,60 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="B.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="1.5395044"
-     inkscape:cx="219.2264"
-     inkscape:cy="111.72427"
-     inkscape:window-width="1366"
-     inkscape:window-height="715"
-     inkscape:window-x="1358"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs2">
-    <linearGradient
-       id="linearGradient9403"
-       inkscape:swatch="solid">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop9401" />
-    </linearGradient>
-  </defs>
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       id="rect117"
-       style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0450635"
-       d="M 30.150098 15.837276 L 26.259896 15.837793 L 26.259896 15.849679 L 21.158915 15.849679 L 21.158915 47.83739 L 26.268681 47.83739 L 26.346195 47.83739 L 30.158883 47.83739 L 30.158883 41.639836 L 26.269198 41.639836 L 26.269198 33.807756 L 30.120642 33.807756 L 30.120642 28.632878 L 30.150098 28.632878 L 30.150098 15.837276 z " />
-    <path
-       id="rect622"
-       style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0935314"
-       d="M 32.763892 15.91169 L 32.763892 47.911804 L 64.764006 47.911804 L 64.764006 15.91169 L 32.763892 15.91169 z M 35.289836 18.845878 L 60.016492 18.845878 L 60.016492 43.572534 L 35.289836 43.572534 L 35.289836 18.845878 z " />
-  </g>
-</svg>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" version="1.1" id="svg5" ns1:version="1.2.2 (732a01da63, 2022-12-09)" ns2:docname="B.svg">
+  <ns0:defs id="defs2">
+    <ns0:linearGradient id="linearGradient9403" ns1:swatch="solid">
+      <ns0:stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop9401" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  <ns0:g ns1:label="Capa 1" ns1:groupmode="layer" id="layer1">
+    <ns0:path id="rect117" style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0450635" d="M 30.150098 15.837276 L 26.259896 15.837793 L 26.259896 15.849679 L 21.158915 15.849679 L 21.158915 47.83739 L 26.268681 47.83739 L 26.346195 47.83739 L 30.158883 47.83739 L 30.158883 41.639836 L 26.269198 41.639836 L 26.269198 33.807756 L 30.120642 33.807756 L 30.120642 28.632878 L 30.150098 28.632878 L 30.150098 15.837276 z " />
+    <ns0:path id="rect622" style="fill:#d7d7d7;fill-opacity:1;stroke-width:0.0935314" d="M 32.763892 15.91169 L 32.763892 47.911804 L 64.764006 47.911804 L 64.764006 15.91169 L 32.763892 15.91169 z M 35.289836 18.845878 L 60.016492 18.845878 L 60.016492 43.572534 L 35.289836 43.572534 L 35.289836 18.845878 z " />
+  </ns0:g>
+</ns0:svg>
