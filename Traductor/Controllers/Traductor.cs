@@ -24,16 +24,19 @@ namespace Traductor.Controllers
                 // Manejar el caso de texto vacío, por ejemplo, mostrando un mensaje de error
                 return RedirectToAction("Error");
             }
-
+            var rutasSvg1= new List<(char Letra, string RutaSvg)>();
             var rutasSvg = new List<(char Letra, string RutaSvg)>();
             foreach (char letra in texto)
             {
                 string rutaSvg = _traductorModel.ObtenerRutaSvg(letra);
                 rutasSvg.Add((letra, rutaSvg));
+                string rutaSvg1 = _traductorModel.ObtenerRutaSvg(letra);
+                rutasSvg1.Add((letra, rutaSvg));
             }
-            
+            rutasSvg1.Reverse();
             var viewModel = new TraductorViewModel
             {
+                RutasSvg1 = rutasSvg1,
                 RutasSvg = rutasSvg,
                 Kripto = kripto
             };

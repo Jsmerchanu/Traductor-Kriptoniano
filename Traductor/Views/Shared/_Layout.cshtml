@@ -7,23 +7,24 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Traductor.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Traductor</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+<body class="font">
+    <header class="input2">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 input2">
+            <div class="container-fluid input2">
+                <a class="navbar-brand input2 text-white" asp-area="" asp-controller="Home" asp-action="Index">Traductor</a>
+                <button class="navbar-toggler input2" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon input2"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark"  href ="https://jsmerchanu.github.io/Portafolio/">Portafolio</a>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between input2">
+                    <ul class="navbar-nav flex-grow-1 input2">
+                        <li class="nav-item input2">
+                            <a class="nav-link text-dark input2 text-white" href="https://jsmerchanu.github.io/Portafolio/">Portafolio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="https://github.com/Jsmerchanu">GitHub</a>
+                        <li class="nav-item input2">
+                            <a class="nav-link text-dark input2 text-white" href="https://github.com/Jsmerchanu">GitHub</a>
                         </li>
                     </ul>
                 </div>
@@ -36,9 +37,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Traductor - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="border-top footer text-muted wrapper">
+        <div class="container text-center" >
+            <a class="text-white text-center" style="text-decoration: none;" href="https://github.com/Jsmerchanu"> GitHub </a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

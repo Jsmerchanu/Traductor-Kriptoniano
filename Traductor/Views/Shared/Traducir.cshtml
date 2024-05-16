@@ -4,54 +4,56 @@
     ViewData["Title"] = "Home Page";
 }
 <link rel="stylesheet" href="~/css/custom.css" />
-<div class="text-center">
-    <h1 class="display-4">Traductor a Kriptoniano</h1>
+<div class="text-center">    
     @if (Model != null && Model.RutasSvg != null && Model.RutasSvg.Any())
-    {
-        <div class="row no-gutters justify-content-start bg-dark ">
-            <div class="image-container">
-                @for (int i = 0; i < Model.RutasSvg.Count; i++)
+    {               
+            <div class="row no-gutters justify-content-start wrapper" id="wrapper1" style="margin-top: 10%;">
+                <div class="image-container">                
+                        @for (int i = 0; i < Model.RutasSvg.Count; i++)
+                        {                        
+                            <div class="col-auto p-0" style="width: 200px; height: 110px;">
+                                <div style="background-image: url('@Model.RutasSvg[i].Item2'); background-size:  auto; background-repeat: no-repeat; position:center center; width: 100%; height: 100%;">
+                                </div>
+                            </div>                       
+                        }                              
+                </div>
+            </div>
+        /*<div class="row no-gutters justify-content-start wrapper" id="wrapper2">
+            <div class="image-container-In">
+                @for (int i = 0; i < Model.RutasSvg1.Count; i++)
                 {
-                    <div class="col-auto p-0" style="width: 70px; height: 70px;">
-                        <div style="background-image: url('@Model.RutasSvg[i].Item2'); background-size: 180% auto; background-repeat: no-repeat; position:center center; width: 100%; height: 100%;">
+                    <div class="col-auto-In p-0" style="width: 200px; height: 100px;">
+                        <div style="background-image: url('@Model.RutasSvg1[i].Item2'); background-size:  auto; background-repeat: no-repeat; position:center center; width: 100%; height: 100%;">
                         </div>
                     </div>
+
                 }
             </div>
         </div>
-        <div class="row no-gutters justify-content-start bg-dark ">
-            <div class="image-container">
-                @for (int i = 0; i < Model.RutasSvg.Count; i++)
-                {
-                    <div class="col-auto p-0" style="width: 70px; height: 70px;">
-                        <div style="background-image: url('@Model.RutasSvg[i].Item2'); background-size: 180% auto; background-repeat: no-repeat; position:center center; width: 100%; height: 100%;">
-                        </div>
-                    </div>
-                }
-            </div>
-        </div>
-        <div class="row no-gutters justify-content-start bg-dark mb-2">
-            <div class="image-container">
-                @for (int i = 0; i < Model.RutasSvg.Count; i++)
-                {
-                    <div class="col-auto p-0" style="width: 70px; height: 70px;">
-                        <div style="background-image: url('@Model.RutasSvg[i].Item2'); background-size: 180% auto; background-repeat: no-repeat; position:center center; width: 100%; height: 100%;">
-                        </div>
-                    </div>
-                }
-            </div>
-        </div>
+        <div class="row no-gutters justify-content-start wrapper" id="wrapper3">
+                <div class="image-container">                
+                        @for (int i = 0; i < Model.RutasSvg.Count; i++)
+                        {                        
+                            <div class="col-auto p-0" style="width: 200px; height: 100px;">
+                                <div style="background-image: url('@Model.RutasSvg[i].Item2'); background-size:  auto; background-repeat: no-repeat; position:center center; width: 100%; height: 100%;">
+                                </div>
+                            </div>
+                       
+                        }                              
+                </div>
+            </div>*/
+       
     }
 
     @using (Html.BeginForm("Traducir", "Traductor", FormMethod.Post))
     {
-        <div class="mb-3">
-            <input class="form-control" type="text" name="kripto" id="kripto" onchange="updateFontStyle(this)" value="@Model.Kripto" style="font-family: 'Kriptoniano';" />
+        <div class="mb-3 input1" id="input1" style="margin-top: 8%;">
+            <input class="form-control input1 text-white" type="text" name="kripto" id="kripto" onchange="updateFontStyle(this)" value="@Model.Kripto" style="font-family: 'Kriptoniano';" />
         </div>
-        <div class="mb-3">
-            <textarea class="form-control" rows="3" name="texto" id="texto" placeholder="Texto a traducir" required maxlength="72"></textarea>
+        <div class="mb-3 input1" id="input1">
+            <textarea class="form-control input1 text-white" rows="3" name="texto" id="texto" placeholder="Texto a traducir" required maxlength="100"></textarea>
         </div>
-        <div class="mb-3">
+        <div class="mb-3" >
             <input class="btn btn-primary" type="submit" value="Traducir" />
         </div>
     }

@@ -5,13 +5,16 @@
 }
 <link rel="stylesheet" href="~/css/custom.css" />
 <div class="text-center">
-    <h1 class="display-4">Traductor a Kriptoniano</h1>
-    <p>Learn about.</p>
+    <h1 class=" title" >Traductor a Kriptoniano</h1>
+    
 
     @using (Html.BeginForm("Traducir", "Traductor", FormMethod.Post))
     {
-        <div class="mb-3">
-            <textarea class="form-control" rows="3" name="texto" id="texto" placeholder="Texto a traducir" required maxlength="72"></textarea>
+        <div class="mb-3 input1" id="input1" style="margin-top: 10%;">
+            <input class="form-control input1 text-white" type="text" name="kripto" id="kripto" onchange="updateFontStyle(this)" value="@Model.Kripto" style="font-family: 'Kriptoniano';"/>
+        </div>
+        <div class="mb-3 input1" id="input1">
+            <textarea class="form-control input1 text-white" rows="3" name="texto" id="texto" placeholder="Texto a traducir" required maxlength="100"></textarea>
         </div>
         <div class="mb-3">
             <input class="btn btn-primary" type="submit" value="Traducir" />
