@@ -9,42 +9,41 @@
     <link rel="stylesheet" href="~/Traductor.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/custom.css" />
 </head>
-<body class="font">
-    <header class="input2">
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 input2">
-            <div class="container-fluid input2">
-                <a class="navbar-brand input2 text-white" asp-area="" asp-controller="Home" asp-action="Index">Traductor</a>
-                <button class="navbar-toggler input2" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon input2"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between input2">
-                    <ul class="navbar-nav flex-grow-1 input2">
-                        <li class="nav-item input2">
-                            <a class="nav-link text-dark input2 text-white" href="https://jsmerchanu.github.io/Portafolio/">Portafolio</a>
-                        </li>
-                        <li class="nav-item input2">
-                            <a class="nav-link text-dark input2 text-white" href="https://github.com/Jsmerchanu">GitHub</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container-fluid" >
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+<body class="font d-flex flex-column min-vh-100" style="margin: 0px;">
 
-    <footer class="border-top footer text-muted wrapper">
-        <div class="container text-center" >
-            <a class="text-white text-center" style="text-decoration: none;" href="https://github.com/Jsmerchanu"> GitHub </a>
+    <header class="input2" style="width: 100%;">
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white  box-shadow mb-3 input2">
+                <div class="container-fluid input2">
+                    <a class="navbar-brand input2 text-white" asp-area="" asp-controller="Home" asp-action="Index">Traductor</a>
+                    <button class="navbar-toggler input2" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon input2"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between input2">
+                        <ul class="navbar-nav flex-grow-1 input2">
+                            <li class="nav-item input2">
+                                <a class="nav-link text-dark input2 text-white" href="https://jsmerchanu.github.io/Portafolio/">Portafolio</a>
+                            </li>
+                            <li class="nav-item input2">
+                                <a class="nav-link text-dark input2 text-white" href="https://github.com/Jsmerchanu">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container-fluid">
+            <main role="main" class="pb-3 flex-grow-1">
+                @RenderBody()
+            </main>
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+    <footer class="border-top footer text-muted wrapper text-center mt-auto" style="width: 100%;">
+        <a class="text-white text-center" style="text-decoration: none;" href="https://github.com/Jsmerchanu"> GitHub </a>
+        </footer>
 </body>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
 </html>
